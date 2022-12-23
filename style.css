@@ -1,0 +1,56 @@
+body {
+  text-align:center;
+  font-family: 'Happy Monkey', cursive;
+  background-image:url("bdbg.jpg");
+  color:white;
+}
+h1, h2, h3, h4, p {
+  text-shadow:5px 5px 6px blue;
+}
+#meme {
+  width:200px;
+  border-radius:10%;
+}
+.header {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.bgift {
+  margin:0 auto;
+  width:300px;
+  height:300px;
+  border:6px solid yellow;
+  border-radius:10px;
+  background-image:url("gift.gif");
+  background-size:cover;
+}
+#bgif1:hover {
+  background-image:url("excited.gif");
+}
+#bgif2:hover {
+  background-image:url("hot.webp");
+}
+#bgif3:hover {
+  background-image:url("perfecto.webp");
+}
+#bgif4:hover {
+  background-image:url("norris.webp");
+}
+#bgif5:hover {
+  background-image:url("cheers2.webp");
+}
+#bgif5 {
+  height:200px;
+}
+.gift-section {
+  margin-top:50px;
+}
+#footer{
+  width:300px;
+  margin:50px auto 30px;
+  font-style:italic;
+}
+a {
+  color:white;
+}
